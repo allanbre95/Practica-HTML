@@ -34,3 +34,5 @@ Bonus: En caso de que te quede corto el ejercicio siguele con esto!
     Bonus de estilos (Intro a CSS)
     Bonus de Rutas (Navegación en la página)
     Bonus de despliegue (Montar la página en línea con dominio gratuito)
+    
+Nota: Esta pagina no va a contar con estilos de CSS aun por el tiempo para entregar la practica (4 Nov, 2022) pero los agregare a como vaya aprendiendo mas de CSS en este curso y con otros materiales. 

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Titulo y logo -->
+
+    <header>
+        <h1>Pasteleria Damazzio</h1>
+    </header>
+
+    <img src="Damazzio.png" alt="Logo Pasteleria y Reposteria Damazzio">
+    <hr>
+
+    <!-- Menu de Sabores Y Adornos -->
+
+    <section>
+    
+    <h2>Menu</h2>
+    <hr>
+    <h3>Nuestros sabores</h3>
+        <p>
+            <ul>
+                <dt><b>Chocolate  .................... $8</b></dt>
+                <dt><b>Vainilla   .................... $7</b></dt>
+                <dt><b>Red Velvet .................... $8</b></dt>
+                <dt><b>Zanahoria  .................... $7</b></dt>
+                <dt><b>Combinado  .................... $10</b></dt>
+            </ul>
+        </p>
+
+    <h3>Opciones para adornar tu pastel</h3>
+        <p>
+            <dl>
+                <dt><b>Galletas  .................... $4</b></dt>
+                <dd>Una combinacion de Chips Ahoy! y Oreo</dd><br>
+                <dt><b>Chocolates   .................... $8</b></dt>
+                <dd>Base de chocolate oscuro con trozos de Snickers, Hershey's, Kit Kat y M&M's </dd><br>
+                <dt><b>Macaron frances .................... $9</b></dt>
+                <dd>Tradicionales macarones frances multicolor</dd><br>
+                <dt><b>Fresas  .................... $7</b></dt>
+                <dd>Ricas fresas enteras y en julianas</dd><br>
+                <dt><b>Gomitas  .................... $6</b></dt>
+                <dd>Surtido de gomitas dulces y acidas</dd><br>
+            </dl>
+        </p>
+    </section>
+    <hr>
+
+    <!-- Formulario de pedidos -->
+
+    <section>
+
+        <form action="">
+
+        <!-- Ingreso de Datos Personales -->
+
+            <h2>Empecemos con tu pedido</h2>
+            <hr>
+            <p><b>Datos personales</b></p>
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br><br>
+            <label for="Telefono">Telefono</label><br>
+            <input type="text" id="Telefono" name="Telefono"><br><br>            
+            <label for="Correo">Correo Electronico</label><br>
+            <input type="text" id="Correo" name="Correo"><br><br>
+
+        <!-- Eleccion de sabor -->
+            
+            <p><b>Elije el sabor de tu pastel</b></p>
+            <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+            <label for="Chocolate">Chocolate</label><br>
+            <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+            <label for="Vainilla">Vainilla</label><br>
+            <input type="checkbox" id="Red Velvet" name="Red Velvet" value="Red Velvet">
+            <label for="Red Velvet">Red Velvet</label><br>
+            <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+            <label for="Zanahoria">Zanahoria</label><br>
+
+         <!-- Eleccion de decoracion -->
+
+            <p><b>Agregale decoracion</b></p>
+            <input type="checkbox" id="Galletas" name="Galletas" value="Galletas">
+            <label for="Galletas">Galletas</label><br>
+            <input type="checkbox" id="Chocolates" name="Chocolates" value="Chocolates">
+            <label for="Chocolates">Chocolates</label><br>
+            <input type="checkbox" id="Macaron frances" name="Macaron frances" value="Macaron frances">
+            <label for="Macaron frances">Macaron frances</label><br>
+            <input type="checkbox" id="Fresas" name="Fresas" value="Fresas">
+            <label for="Fresas">Fresas</label><br>
+            <input type="checkbox" id="Gomitas" name="Gomitas" value="Gomitas">
+            <label for="Gomitas">Gomitas</label><br>
+            <input type="checkbox" id="Sindecoracion" name="Sindecoracion" value="Sindecoracion">
+            <label for="Sindecoracion">Sin decoracion</label><br>
+            
+         <!-- Descripcion del pastel -->
+            
+            <p><b>Dinos como quieres tu pastel con los sabores y decoracion seleccionados</b></p>
+
+            <label for="Descripcion">Descripcion general</label><br>
+            <input type="text" id="Descripcion" name="Descripcion"><br><br>
+
+         <!-- Eleccion de cantidad -->
+
+            <p><b>¿Cuantos quieres?</b></p>
+            <input type="number" name="PastelNumero" id="PastelNumero" min="1" max="99">
+            <label for="PastelNumero"></label><br>
+            
+        </form>
+        
+
+    </section>
+    <hr>
+
+    <!-- Ubicacion, telefono y horario -->
+
+    <section>
+        <h2>Sobre Nosotros</h2>
+        <hr>
+        <h3>Direccion</h3>
+        <p><a href="https://goo.gl/maps/u5ak2Uw91cw8Kssy9" target="_blank">Hatillo 2, Calle Costa Rica</a></p>
+        <h3>Telefono</h3>
+        <p>+506 22142678</p>
+        <h3>Horario de atencion</h3>
+        <p>Lunes a Sabado de 8:00am a 6:00pm</p>
+        <hr>
+    </section>
+    
+    <!-- Ingreso pagina de adminsitradores -->
+
+    <section>
+        <h2>Adminsitradores</h2>
+        <ul>
+        <li><a href="./pasteleria_administradores.html">Ingresa aqui</a></li>
+        </ul>
+        <hr>
+    </section>
+    <hr>
+
+</body>
+</html>
